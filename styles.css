@@ -25,7 +25,7 @@
   .menu a{
     margin-right: 3rem;
   }
-  .navbar{
+  .navbar,.herowrapper{
     max-width: 85%;
     margin:auto;
   }
@@ -41,4 +41,41 @@
   }
   .dashboard{
     color:  #ECE4F9 !important;
+  }
+  .herowrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+  .topleft{
+    color: #9A77EC;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .heroleft{
+    padding: 3rem 18rem 0rem 10rem;
+  }
+  .heroright img{
+    width: 75%;
+  }
+  .heroright{
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  .midleft{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+  }
+  .botleft{
+    color: #62627A;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .disclaimer{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    color: #62627A;
   }
