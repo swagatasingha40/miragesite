@@ -29,7 +29,8 @@
   .herowrapper,
   .companywrapper,
   .features,
-  .FAQwrapper{
+  .FAQwrapper,
+  .circle-bg-third{
     max-width: 85%;
     margin:auto;
   }
@@ -159,9 +160,87 @@
   .bg-circle img{
     width: 30%;
   }
-  #fleft{
-    background-image: linear-gradient(#9A77EC, #E4A0D1);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+  #faq{
+    margin-top: -10rem;
+    padding: 0rem 8rem;
   }
+  #fleft{
+    background: linear-gradient(89.52deg, #9A77EC -5.01%, #E4A0D1 102.01%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .clearfix1{
+    margin-bottom: 3rem;
+  }
+  .accordian-item {
+    border: 1px solid #242329;
+    background-color: #1E1E2D;
+    color: #fff;
+    margin: 2rem 0;
+    width: 100%;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+}
+.accordian-item-header::after {
+  content: url("./assets/plus.svg");
+  position: absolute;
+  right: 1rem;
+}
+.accordian-item-header.active::after {
+  content: url("./assets/minus.svg");
+}
+.accordian-item-header.active {
+  color: rgba(255, 255, 255, 0.5);;
+}
+.accordian-item-header {
+  /* padding: 0.5rem 3rem 0.5rem 2rem; */
+  min-height: 2rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color:#FFFFFF;
+}
+.accordian-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+.accordian-item-body-content{
+  padding-right: 10rem;
+}
+.circle-bg-third img{
+  width: 33%;
+  position: relative;
+  right: -49rem;
+  top: -13rem;
+  z-index: -1;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(267.31deg, #9A77EC -5.79%, #E4A0D1 105.06%);
+  height: 9rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: -9rem;
+}
+footer>div{
+  margin-right: 2rem;
+}
+footer>div>a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
