@@ -25,7 +25,10 @@
   .menu a{
     margin-right: 3rem;
   }
-  .navbar,.herowrapper{
+  .navbar,
+  .herowrapper,
+  .companywrapper,
+  .features{
     max-width: 85%;
     margin:auto;
   }
@@ -53,29 +56,103 @@
     font-size: 18px;
   }
   .heroleft{
-    padding: 3rem 18rem 0rem 10rem;
+    margin-left: 9rem;
   }
   .heroright img{
-    width: 75%;
+    width: 110%;
   }
   .heroright{
-    padding-top: 2rem;
-    padding-left: 2rem;
+    left: -6rem;
+    top: 2rem;
+    position: relative;
   }
   .midleft{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
+    margin: 0px 17rem 0px 0rem;
   }
   .botleft{
     color: #62627A;
     font-weight: 500;
     font-size: 18px;
+    margin-top: 0.6rem;
+    margin-bottom: 3rem;
+    margin-right: 16rem;
   }
   .disclaimer{
     font-style: italic;
     font-weight: 500;
     font-size: 14px;
     color: #62627A;
+    padding-right: 20rem;
+  }
+  .soldbttn button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #9A77EC;
+    color: #ECE4F9;
+    border: none;
+    border-radius: 10px;
+    border: 1px dashed #ECE4F9;
+    text-align: center;
+    padding:0.5rem 3.5rem;
+  }
+  .disclaimer{
+    margin-top: 2rem;
+  }
+  .companywrapper{
+    position: relative;
+    top: -2.3rem;
+  }
+  .companywrapper img{
+    width: 80%;
+    padding-left: 9rem;
+  }
+  .features{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 9rem;
+    position: relative;
+    top: -22rem;
+    left: 3rem;
+    width: 80%;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;
+  }
+  .highlight-title{
+    color:#E4A0D1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .featbody{
+    padding-right: 3rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #62627A;
+  }
+  .featbody a{
+    color: #9A77EC;
+  }
+  .bg-circle{
+    position: relative;
+    top: -12rem;
+    left: 0rem;
+  }
+  .bg-circle img{
+    width: 30%;
   }

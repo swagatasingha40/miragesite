@@ -45,6 +45,146 @@
                 <img src="assets/circle.svg" alt="" srcset="">
             </div>
         </div>
+        <div class="companywrapper">
+            <img src="assets/compall.svg" alt="" srcset="">
+        </div>
+        <div class="bg-circle">
+            <img src="assets/circle2.svg" alt="">
+        </div>
+        <div class="features">
+            <div class="feature">
+                <div class="highlight-title">
+                    BUILT FOR SPEED
+                </div>
+                <div class="title">
+                    Powerful Task Engine
+                </div>
+                <div class="featbody">
+                    Run unlimited tasks at lightning fast speeds with our Golang task engine.
+                </div>
+            </div>
+            <div class="feature">
+                <div class="highlight-title">
+                    CONVENIECE
+                </div>
+                <div class="title">
+                    Quicktask Support
+                </div>
+                <div class="featbody">
+                    Start tasks easily with our simplified quicktask support, <a href="#">documentation here</a>.
+                </div>
+            </div>
+            <div class="feature">
+                <div class="highlight-title">
+                    SITE SUPPORT
+                </div>
+                <div class="title">
+                    All in one
+                </div>
+                <div class="featbody">
+                    Many sites and regions supported. Ranging from Mesh to Off White.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-4-wrapper" id="faq">
+            <div class="FAQ_with_kutta">
+              <div class="clearfix1">
+                <h2 class="acc_feature_subheading" id="fleft">
+                  Frequently Asked Questions
+                </h2>
+              </div>
+              <div class="accordian">
+                <div class="accordian-item">
+                  <div class="accordian-item-header">
+                    <h4>How much is Soleradar?</h4>
+                  </div>
+                  <div class="accordian-item-body">
+                    <div class="accordian-item-body-content">
+                      <p>
+                        Soleradar currently retails for €45 monthly with our beta
+                        members being kept on our original price plan of €40 a
+                        month.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordian-item">
+                  <div class="accordian-item-header">
+                    <h4>What regions do you guys focus on?</h4>
+                  </div>
+                  <div class="accordian-item-body">
+                    <div class="accordian-item-body-content">
+                      <p>
+                        Our main focus is currently on the United Kingdom and
+                        European countries. Regardless of that we still support
+                        sites across Asia and Australia as well.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordian-item">
+                  <div class="accordian-item-header">
+                    <h4>How do I obtain a Soleradar membership?</h4>
+                  </div>
+                  <div class="accordian-item-body">
+                    <div class="accordian-item-body-content">
+                      <p>
+                        You can purchase a monthly Soleradar membership from
+                        occasional, limited restocks. These events are usually
+                        pre-announced on our social media platforms.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="accordian-item">
+                              <div class="accordian-item-header">
+                                  <h4>
+                                      How can I receive support after purchasing Dino?
+                                  </h4>
+                              </div>
+                              <div class="accordian-item-body">
+                                  <div class="accordian-item-body-content">
+                                      <p>
+                                          You can find an efficient support experience into our Discord server
+                                      </p>
+                                  </div>
+                              </div>
+                          </div> -->
+              </div>
+            </div>
+          </div>
+
+
     </div>
+    <script>
+        const accordianItemHeaders = document.querySelectorAll(
+          ".accordian-item-header"
+        );
+  
+        accordianItemHeaders.forEach((accordianItemHeader) => {
+          accordianItemHeader.addEventListener("click", () => {
+            const current = document.querySelector(
+              ".accordian-item-header.active"
+            );
+  
+            if (current && current !== accordianItemHeader) {
+              current.classList.toggle("active");
+              current.nextElementSibling.style.maxHeight = 0;
+            }
+            accordianItemHeader.classList.toggle("active");
+  
+            const accordianItemBody = accordianItemHeader.nextElementSibling;
+  
+            if (accordianItemHeader.classList.contains("active")) {
+              accordianItemBody.style.maxHeight =
+                accordianItemBody.scrollHeight + "px";
+            } else {
+              accordianItemBody.style.maxHeight = 0;
+            }
+          });
+        });
+      </script>
 </body>
 </html>
