@@ -28,7 +28,8 @@
   .navbar,
   .herowrapper,
   .companywrapper,
-  .features{
+  .features,
+  .FAQwrapper{
     max-width: 85%;
     margin:auto;
   }
@@ -129,20 +130,22 @@
     color:#E4A0D1;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
+    margin-bottom: 0.3rem;
   }
   .title{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
+    margin-bottom: 0.3rem;
   }
   .featbody{
-    padding-right: 3rem;
+    padding-right: 7rem;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     color: #62627A;
   }
   .featbody a{
@@ -155,4 +158,10 @@
   }
   .bg-circle img{
     width: 30%;
+  }
+  #fleft{
+    background-image: linear-gradient(#9A77EC, #E4A0D1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
