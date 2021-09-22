@@ -25,7 +25,11 @@
   .menu a{
     margin-right: 3rem;
   }
-  .navbar,
+  .bodywrapper{
+    max-width: 85%;
+    margin:auto;
+  }
+  /* .navbar,
   .herowrapper,
   .companywrapper,
   .features,
@@ -33,7 +37,7 @@
   .circle-bg-third{
     max-width: 85%;
     margin:auto;
-  }
+  } */
   .navbar{
     display: flex;
     flex-direction: row;
@@ -65,7 +69,7 @@
   }
   .heroright{
     left: -6rem;
-    top: 2rem;
+    top: 6rem;
     position: relative;
     z-index: -1;
   }
@@ -74,7 +78,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    margin: 0px 17rem 0px 0rem;
+    margin: 1px 39rem 10px 0rem;
   }
   .botleft{
     color: #62627A;
@@ -82,14 +86,14 @@
     font-size: 18px;
     margin-top: 0.6rem;
     margin-bottom: 3rem;
-    margin-right: 16rem;
+    margin-right: 39rem;
   }
   .disclaimer{
     font-style: italic;
     font-weight: 500;
     font-size: 14px;
     color: #62627A;
-    padding-right: 20rem;
+    padding-right: 45rem;
   }
   .soldbttn button{
     font-family: Inter;
@@ -109,19 +113,32 @@
   }
   .companywrapper{
     position: relative;
-    top: -2.3rem;
+    top:-2rem;
+    padding-left: 8rem;
   }
-  .companywrapper img{
-    width: 80%;
-    padding-left: 9rem;
+  .foursm{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+  .foursm>div{
+    margin-right: 3rem;
+  }
+  .threelg{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .threelg>div{
+    margin-right: 3.5rem;
   }
   .features{
     display: flex;
     flex-direction: row;
-    padding: 0rem 9rem;
+    padding: 0rem 8rem;
     position: relative;
-    top: -22rem;
-    left: 3rem;
+    top: -24rem;
+    left: 7rem;
     width: 80%;
   }
   .feature{
@@ -132,22 +149,22 @@
     color:#E4A0D1;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 0.3rem;
   }
   .title{
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 0.3rem;
   }
   .featbody{
-    padding-right: 5rem;
+    padding-right: 8rem;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #62627A;
   }
   .featbody a{
@@ -155,8 +172,9 @@
   }
   .bg-circle{
     position: relative;
-    top: -12rem;
-    left: 0rem;
+    top: -14rem;
+    left: -5rem;
+
     z-index: -1;
   }
   .bg-circle img{
@@ -164,7 +182,7 @@
   }
   #faq{
     margin-top: -10rem;
-    padding: 0rem 8rem;
+    padding: 0rem 12rem;
   }
   .gradtitle{
     background: linear-gradient(268.76deg, #E4A0D1 -18.66%, #9A77EC 124.25%);
@@ -199,12 +217,15 @@
     border-radius: 20px;
 }
 .accordian-item-header::after {
-  content: url("./assets/plus.svg");
-  position: absolute;
-  right: 1rem;
+  content: " ";
+  background-image: url("./assets/plus.svg");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }
 .accordian-item-header.active::after {
   content: url("./assets/minus.svg");
+  background-image: none;
 }
 .accordian-item-header.active {
   color: rgba(255, 255, 255, 0.5);;
@@ -220,6 +241,7 @@
   font-weight: 600;
   font-size: 16px;
   color:#FFFFFF;
+  justify-content: space-between;
 }
 .accordian-item-body {
   max-height: 0;
@@ -234,31 +256,37 @@
 .circle-bg-third img{
   width: 33%;
   position: relative;
-  right: -49rem;
-  top: -13rem;
+  right: -67rem;
+  top: -12rem;
   z-index: -1;
 }
-
-footer{
+.footer{
+  background: linear-gradient(267.31deg, #9A77EC -5.79%, #E4A0D1 105.06%);
+}
+.footertextwrapper{
+  padding-left:15%;
+  padding-right: 15%;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(267.31deg, #9A77EC -5.79%, #E4A0D1 105.06%);
   height: 9rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: -9rem;
 }
-footer>div{
+footer>div>div{
   margin-right: 2rem;
 }
-footer>div>a{
+footer>div>div>a{
   color: #FFFFFF;
   text-decoration: none;
 }
 
 @media (max-width: 1100px) {
+  .heroleft{
+    margin-left: 6rem;
+  }
   .midleft{
-    margin: 0px 7rem 0px 0rem;
+    margin: 0px 4rem 0px 0rem;
   }
   .botleft{
     margin-right: 6rem;
@@ -272,23 +300,37 @@ footer>div>a{
     font-size: smaller;
   }
   .heroright {
-    left: -1rem;
-    top: 10rem;
+    left: 3rem;
+    top: 9rem;
+  }
+  .heroright img{
+    width: 95%;
   }
   .companywrapper {
     top: 5rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
   }
+  .companywrapper img{
+    width: 80%;
+  }
+  .foursm>div{
+    margin-right: 0.5rem;
+  }
+  .threelg>div {
+    margin-right: 0rem;
+}
   .features{
-    top:-10rem;
-    left: 1rem;
-    padding: 0rem 5rem;
+    top:-7rem;
+    left: 6rem;
+    padding: 0rem 0rem;
   }
   .bg-circle{
-    top: -3rem;
-    left: 1rem;
+    top: -1rem;
+    left: -4rem;
   }
   .feature{
-    margin-right: 1rem;
+    margin-right: -1rem;
   }
   .highlight-title{
     font-size: 14px;
@@ -297,10 +339,11 @@ footer>div>a{
     font-size: 18px;
   }
   .featbody{
-    padding-right: 0rem;
+    padding-right: 2rem;
   }
   #faq{
     margin-top: 0rem;
+    padding:0px 6rem;
   }
   #fleft{
     font-size: 30px;
@@ -311,7 +354,43 @@ footer>div>a{
   .circle-bg-third img{
     right: -36rem;
     width: 36%;
+    top: -12rem;
+  }
+}
+@media (max-width: 768px) {
+  .heroleft{
+    margin-left: 3rem;
+  }
+  .topleft{
+    font-size: 16px;
+  }
+  .midleft{
+    font-size: 30px;
+    margin: 0px 5rem 0px 0rem;
+  }
+  .botleft{
+    font-size: 14px;
+    margin-right: 3rem;
+  }
+  #faq {
+    margin-top: 0rem;
+    padding: 0px 2rem;
+}
+  .accordian-item-body-content 
+  {
+    padding-right: 4rem;
+  }
+  .circle-bg-third img 
+  {
+    right: -28rem;
+    width: 36%;
     top: -13rem;
   }
-
+  .footertextwrapper {
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  .footertextwrapper>div>a {
+    font-size: 12px;
+  }
 }
