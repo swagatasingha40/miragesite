@@ -20,7 +20,7 @@
     color: #9894A6;
     font-size: 18px;
     font-weight: 500;
-    position: relative;
+    /* position: relative; */
   }
   .menu a{
     margin-right: 3rem;
@@ -67,6 +67,7 @@
     left: -6rem;
     top: 2rem;
     position: relative;
+    z-index: -1;
   }
   .midleft{
     font-family: Inter;
@@ -142,7 +143,7 @@
     margin-bottom: 0.3rem;
   }
   .featbody{
-    padding-right: 7rem;
+    padding-right: 5rem;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -156,6 +157,7 @@
     position: relative;
     top: -12rem;
     left: 0rem;
+    z-index: -1;
   }
   .bg-circle img{
     width: 30%;
@@ -164,8 +166,17 @@
     margin-top: -10rem;
     padding: 0rem 8rem;
   }
+  .gradtitle{
+    background: linear-gradient(268.76deg, #E4A0D1 -18.66%, #9A77EC 124.25%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
   #fleft{
-    background: linear-gradient(89.52deg, #9A77EC -5.01%, #E4A0D1 102.01%);
+    background: linear-gradient(268.76deg, #E4A0D1 -18.66%, #9A77EC 124.25%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -243,4 +254,64 @@ footer>div{
 footer>div>a{
   color: #FFFFFF;
   text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .midleft{
+    margin: 0px 7rem 0px 0rem;
+  }
+  .botleft{
+    margin-right: 6rem;
+    font-size: 16px;
+  }
+  .soldbttn button{
+    padding: 0.5rem 3.0rem;
+  }
+  .disclaimer{
+    padding-right: 10rem;
+    font-size: smaller;
+  }
+  .heroright {
+    left: -1rem;
+    top: 10rem;
+  }
+  .companywrapper {
+    top: 5rem;
+  }
+  .features{
+    top:-10rem;
+    left: 1rem;
+    padding: 0rem 5rem;
+  }
+  .bg-circle{
+    top: -3rem;
+    left: 1rem;
+  }
+  .feature{
+    margin-right: 1rem;
+  }
+  .highlight-title{
+    font-size: 14px;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .featbody{
+    padding-right: 0rem;
+  }
+  #faq{
+    margin-top: 0rem;
+  }
+  #fleft{
+    font-size: 30px;
+  }
+  .accordian-item-header{
+    font-size: 14px;
+  }
+  .circle-bg-third img{
+    right: -36rem;
+    width: 36%;
+    top: -13rem;
+  }
+
 }
