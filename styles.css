@@ -384,6 +384,12 @@
   .foursm>div{
     margin-right: 3rem;
   }
+  .foursm>div>img{
+    width: 90%;
+  }
+  .threelg>div>img{
+    width: 90%;
+  }
   .threelg{
     display: flex;
     flex-direction: row;
@@ -516,7 +522,7 @@
 .circle-bg-third img{
   width: 33%;
   position: relative;
-  right: -67rem;
+  right: -62%;
   top: -12rem;
   z-index: -1;
 }
@@ -541,14 +547,16 @@ footer>div>div>a{
   text-decoration: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
   .heroleft{
     margin-left: 6rem;
   }
   .midleft{
-    margin: 0px 4rem 0px 0rem;
+    margin: 0px 5rem 0px 0rem;
+    padding-right: 25%;
   }
   .botleft{
+    padding-right: 30%;
     margin-right: 6rem;
     font-size: 16px;
   }
@@ -556,12 +564,12 @@ footer>div>div>a{
     padding: 0.5rem 3.0rem;
   }
   .disclaimer{
-    padding-right: 10rem;
+    padding-right: 20rem;
     font-size: smaller;
   }
   .heroright {
-    left: 3rem;
-    top: 9rem;
+    left: 6%;
+    top: 10rem;
   }
   .heroright img{
     width: 95%;
@@ -581,8 +589,8 @@ footer>div>div>a{
     margin-right: 0rem;
   }
   .features{
-    top:-7rem;
-    left: 6rem;
+    top:-9rem;
+    left: 10%;
     padding: 0rem 0rem;
   }
   .bg-circle{
@@ -599,7 +607,7 @@ footer>div>div>a{
     font-size: 18px;
   }
   .featbody{
-    padding-right: 2rem;
+    padding-right: 6rem;
   }
   #faq{
     margin-top: 0rem;
@@ -612,10 +620,44 @@ footer>div>div>a{
     font-size: 14px;
   }
   .circle-bg-third img{
-    right: -36rem;
+    right: -66%;
     width: 36%;
     top: -12rem;
   } 
+}
+@media (max-width: 1200px) {
+  .heroleft{
+    margin-left: 6rem;
+  }
+  .midleft{
+    margin: 0px 4rem 0px 0rem;
+  }
+  .botleft{
+    margin-right: 6rem;
+    font-size: 16px;
+  }
+  .soldbttn button{
+    padding: 0.5rem 3.0rem;
+  }
+  .disclaimer{
+    padding-right: 10rem;
+    font-size: smaller;
+  }
+  .heroright {
+    left: 6%;
+    top: 10rem;
+  }
+  .heroright img{
+    width: 95%;
+  }
+  .featbody{
+    padding-right: 2rem;
+  }
+  .features{
+    top:-7rem;
+    left: 6rem;
+    padding: 0rem 0rem;
+  }
 }
 @media (max-width: 768px) {
   .menulg a {
@@ -630,18 +672,28 @@ footer>div>div>a{
   }
   .midleft{
     font-size: 30px;
-    margin: 0px 5rem 0px 0rem;
+    margin: 0px 1rem 0px 0rem;
   }
   .botleft{
     font-size: 14px;
-    margin-right: 3rem;
+    margin-right: 1rem;
+  }
+  .disclaimer{
+    padding-right: 6rem;
+    font-size: 13px;
   }
   .heroright img{
     width: 100%;
   }
+  .heroright img{
+    width: 90%;
+  }
+  .soldbttn button{
+    padding: 0.3rem 2rem;
+  }
   .heroright {
-    left: 2rem;
-    top: 9rem;
+    left: 7%;
+    top: 10rem;
   }
   .companywrapper{
     padding-left: 3rem;
@@ -668,18 +720,22 @@ footer>div>div>a{
   {
     padding-right: 4rem;
   }
+  .accordian-item{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
   .circle-bg-third img 
   {
-    right: -28rem;
+    right: -69%;
     width: 36%;
-    top: -13rem;
+    top: -10.5rem;
   }
   .footertextwrapper {
     padding-left: 9%;
     padding-right: 9%;
   }
   .footertextwrapper>div>a {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 @media (max-width: 576px) {
@@ -705,10 +761,12 @@ footer>div>div>a{
   .midleft{
     margin: 0;
     text-align: center;
+    padding: 0;
   }
   .botleft{
     margin-right: 0rem;
     text-align: center;
+    padding: 0;
   }
   .disclaimer{
     text-align: center;
@@ -742,18 +800,21 @@ footer>div>div>a{
   }
   .features{
     top: 9rem;
-    left: 4rem;
+    left: 5rem;
   }
   .feature{
     padding-right: 0rem;
   }
+  .clearfix1{
+    padding-right: 2rem;
+  }
   #faq{
-    padding-left: 2rem;
-    padding-right: 0rem;
+    padding-left: 4rem;
+    margin-right: -3rem;
     margin-top: 12rem;
   }
   .accordian-item{
-    padding: 1rem 1.2rem;
+    padding: 0.5rem 1.2rem;
   }
   .accordian-item-body-content {
     padding-right: 1rem;
@@ -768,6 +829,9 @@ footer>div>div>a{
     position: absolute;
     right: -0.3rem;
   }
+  .accordian-item-body{
+    margin-top: 0;
+  }
   .footertextwrapper{
     margin-top: 6rem;
     display: grid;
@@ -781,5 +845,8 @@ footer>div>div>a{
   }
   footer>div>div{
     margin-right: 0rem;
+  }
+  .footertextwrapper>div>a {
+    font-size: 14px;
   }
 }
