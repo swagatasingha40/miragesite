@@ -9,17 +9,36 @@
 </head>
 <body>
     <div class="bodywrapper">
+
+      <div class="mobnav">
+        <div class="logo"><img src="./assets/mirage.svg" alt="" /></div>
+        <div class="burger-container">
+          <div id="burger">
+            <div class="bar topBar"></div>
+            <div class="bar btmBar"></div>
+          </div>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="#features">Features</a></li>
+          <li class="menu-item"><a href="#faq">FAQ</a></li>
+          <li class="menu-item">
+            <a href="#">Dashboard</a>
+          </li>
+        </ul>
+      </div>
         <div class="navbar">
             <div class="logo">
                 <img src="assets/mirage.svg" alt="" srcset="">
             </div>
-            <div class="menu">
+            <div class="menulg">
                 <a class="home" href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">FAQ</a>
+                <a href="#feat">Features</a>
+                <a href="#faq">FAQ</a>
                 <a class="dashboard" href="#">Dashboard</a>
             </div>
         </div>
+        
         <div class="herowrapper">
             <div class="heroleft">
                 <div class="topleft">
@@ -72,7 +91,7 @@
         <div class="bg-circle">
             <img src="assets/circle2.svg" alt="">
         </div>
-        <div class="features">
+        <div class="features" id="feat">
             <div class="feature">
                 <div class="highlight-title">
                     BUILT FOR SPEED
@@ -202,6 +221,20 @@
             }
           });
         });
+      </script>
+      <script>
+        (function () {
+          var burger = document.querySelector(".burger-container"),
+            header = document.querySelector(".mobnav");
+          burger.onclick = function () {
+            header.classList.toggle("menu-opened");
+            document.querySelector(".menu").classList.toggle("visible");
+          };
+          $(".menu-item").click(function () {
+            header.classList.toggle("menu-opened");
+            document.querySelector(".menu").classList.toggle("visible");
+          });
+        })();
       </script>
 </body>
 </html>
