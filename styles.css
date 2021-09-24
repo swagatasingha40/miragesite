@@ -64,7 +64,7 @@
     }
     .mobnav .logo {
       position: absolute;
-      margin-left: 0vh;
+      margin-left: 3vh;
       margin-top: 3vh;
     }
   
@@ -88,7 +88,7 @@
     }
     .mobnav .burger-container {
       position: absolute;
-      right: -3rem;
+      right: -1.5rem;
       top: -1rem;
       display: inline-block;
       height: 50px;
@@ -322,13 +322,13 @@
     font-size: 18px;
   }
   .heroleft{
-    margin-left: 9rem;
+    margin-left: 8rem;
   }
   .heroright img{
     width: 110%;
   }
   .heroright{
-    left: -6rem;
+    left: -8%;
     top: 6rem;
     position: relative;
     z-index: -1;
@@ -382,13 +382,13 @@
     margin-bottom: 2rem;
   }
   .foursm>div{
-    margin-right: 3rem;
+    margin-right: 2.5rem;
   }
   .foursm>div>img{
-    width: 90%;
+    width: 110%;
   }
   .threelg>div>img{
-    width: 90%;
+    width: 105%;
   }
   .threelg{
     display: flex;
@@ -396,7 +396,7 @@
 
   }
   .threelg>div{
-    margin-right: 3.5rem;
+    margin-right: 3rem;
   }
   .features{
     display: flex;
@@ -404,8 +404,8 @@
     padding: 0rem 8rem;
     position: relative;
     top: -24rem;
-    left: 7rem;
-    width: 80%;
+    left: 10%;
+    width: 86%;
   }
   .feature{
     display: flex;
@@ -448,7 +448,7 @@
   }
   #faq{
     margin-top: -10rem;
-    padding: 0rem 12rem;
+    padding: 0rem 12rem 0rem 8rem;
   }
   .gradtitle{
     background: linear-gradient(268.76deg, #E4A0D1 -18.66%, #9A77EC 124.25%);
@@ -520,7 +520,7 @@
   padding-right: 10rem;
 }
 .circle-bg-third img{
-  width: 33%;
+  width: 36%;
   position: relative;
   right: -62%;
   top: -12rem;
@@ -546,14 +546,106 @@ footer>div>div>a{
   color: #FFFFFF;
   text-decoration: none;
 }
-
-@media (max-width: 1400px) {
-  .heroleft{
-    margin-left: 6rem;
+@media (max-width: 1700px) {
+  .foursm>div>img{
+    width: 95%;
+  }
+  .threelg>div>img{
+    width: 95%;
+  }
+  .threelg>div{
+    margin-right: -0.3rem;
   }
   .midleft{
-    margin: 0px 5rem 0px 0rem;
-    padding-right: 25%;
+    margin: 1px 34rem 10px 0rem;
+  }
+  .foursm>div{
+    margin-right: 0.2rem;
+  }
+  .disclaimer{
+    padding-right: 40rem  ;
+  }
+  .botleft{
+    margin-right:36rem;
+  }
+  .features{
+    padding: 0rem 7rem;
+    top: -22rem;
+    left: 9%;
+  }
+}
+@media (max-width: 1600px) {
+  .midleft{
+    margin: 1px 25rem 4px 0rem;
+  }
+  .botleft{
+    margin-right:27rem;
+  }
+  .disclaimer{
+    padding-right: 34rem  ;
+  }
+  .foursm>div>img{
+    width: 90%;
+  }
+  .threelg>div>img{
+    width: 88%;
+  }
+  .threelg>div{
+    margin-right: -2rem;
+  }
+  .foursm>div{
+    margin-right: -1rem;
+  }
+  .heroright{
+    left: -6%;
+  }
+  .features{
+    padding: 0rem 5rem;
+  }
+  .bg-circle{
+    top: -12.5rem;
+  }
+}
+@media (max-width: 1475px) {
+  .midleft {
+    margin: 1px 20rem 4px 0rem;
+  }
+  .botleft {
+    margin-right: 21rem;
+  }
+  .disclaimer {
+    padding-right: 27rem;
+  }
+  .foursm>div>img {
+    width: 80%;
+  }
+  .threelg>div>img {
+    width: 80%;
+  }
+  .foursm>div {
+    margin-right: -2.5rem;
+  }
+  .threelg>div {
+    margin-right: -4rem;
+  }
+  .heroright{
+    top: 5rem;
+    left: -5%;
+  }
+  .features {
+    padding: 0rem 1rem;
+    top: -20rem;
+    left: 12%;
+  }
+
+}
+@media (max-width: 1400px) {
+  .heroleft{
+    margin-left: 5.5rem;
+  }
+  .midleft{
+    margin: 0px 6rem 0px 0rem;
+    padding-right: 26%;
   }
   .botleft{
     padding-right: 30%;
@@ -579,8 +671,11 @@ footer>div>div>a{
     padding-left: 5rem;
     padding-right: 6rem;
   }
-  .companywrapper img{
-    width: 80%;
+  .threelg>div>img {
+    width: 95%;
+  }
+  .foursm>div>img {
+    width: 95%;
   }
   .foursm>div{
     margin-right: 0.5rem;
@@ -590,8 +685,8 @@ footer>div>div>a{
   }
   .features{
     top:-9rem;
-    left: 10%;
-    padding: 0rem 0rem;
+    left: 12%;
+    padding: 0rem 4rem;
   }
   .bg-circle{
     top: -1rem;
@@ -761,29 +856,32 @@ footer>div>div>a{
   .midleft{
     margin: 0;
     text-align: center;
-    padding: 0;
+    padding: 0rem 2.5rem;
   }
   .botleft{
     margin-right: 0rem;
     text-align: center;
-    padding: 0;
+    padding: 0rem 1rem;
   }
   .disclaimer{
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
   .companywrapper{
     top: 3rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     padding-right: 0rem;
     text-align: center;
+
   }
   .foursm{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
   }
   .foursm>div{
     margin-right: 0rem;
@@ -800,7 +898,7 @@ footer>div>div>a{
   }
   .features{
     top: 9rem;
-    left: 5rem;
+    left: 2.5rem;
   }
   .feature{
     padding-right: 0rem;
@@ -809,7 +907,7 @@ footer>div>div>a{
     padding-right: 2rem;
   }
   #faq{
-    padding-left: 4rem;
+    padding-left: 2rem;
     margin-right: -3rem;
     margin-top: 12rem;
   }
@@ -849,4 +947,19 @@ footer>div>div>a{
   .footertextwrapper>div>a {
     font-size: 14px;
   }
+  .logo>img{
+    width:75%
+  }
+  .bodywrapper {
+    max-width: 96%;
+    margin: auto;
+  }
+  .threelg>div>img {
+    width: 110%;
+  }
+  .foursm>div>img {
+    width: 108%;
+  }
+  .featbody{
+  padding-right: 0rem;
 }
