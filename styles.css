@@ -333,7 +333,7 @@
     width: 110%;
   }
   .heroright{
-    left: -8%;
+    left: -5%;
     top: 6rem;
     position: relative;
     z-index: -1;
@@ -343,7 +343,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    margin: 1px 39rem 10px 0rem;
+    margin: 1px 42rem 10px 0rem;
   }
   .botleft{
     color: #62627A;
@@ -351,14 +351,14 @@
     font-size: 18px;
     margin-top: 0.6rem;
     margin-bottom: 3rem;
-    margin-right: 39rem;
+    margin-right:41rem;
   }
   .disclaimer{
     font-style: italic;
     font-weight: 500;
     font-size: 14px;
     color: #62627A;
-    padding-right: 45rem;
+    padding-right: 47rem;
   }
   .soldbttn button{
     font-family: Inter;
@@ -387,13 +387,13 @@
     margin-bottom: 2rem;
   }
   .foursm>div{
-    margin-right: 2.5rem;
+    margin-right: 4.8rem;
   }
   .foursm>div>img{
-    width: 110%;
+    width: 115%;
   }
   .threelg>div>img{
-    width: 105%;
+    width: 115%;
   }
   .threelg{
     display: flex;
@@ -401,7 +401,7 @@
 
   }
   .threelg>div{
-    margin-right: 3rem;
+    margin-right: 6rem;
   }
   .features{
     display: flex;
