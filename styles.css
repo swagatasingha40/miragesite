@@ -552,9 +552,23 @@ footer>div>div>a{
   color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 1800px) {
+  .foursm>div {
+    margin-right: 2.8rem;
+  }
+  .foursm>div>img {
+    width: 110%;
+  }
+  .threelg>div>img {
+    width: 110%;
+  }
+  .threelg>div{
+    margin-right: 3.1rem;
+  }
+}
 @media (max-width: 1700px) {
   .foursm>div>img{
-    width: 95%;
+    width: 93%;
   }
   .threelg>div>img{
     width: 95%;
@@ -563,16 +577,16 @@ footer>div>div>a{
     margin-right: -0.3rem;
   }
   .midleft{
-    margin: 1px 34rem 10px 0rem;
+    margin: 1px 32rem 10px 0rem;
   }
   .foursm>div{
     margin-right: 0.2rem;
   }
   .disclaimer{
-    padding-right: 40rem  ;
+    padding-right: 35rem  ;
   }
   .botleft{
-    margin-right:36rem;
+    margin-right:29rem;
   }
   .features{
     padding: 0rem 7rem;
@@ -732,16 +746,18 @@ footer>div>div>a{
   }
   .midleft{
     margin: 0px 4rem 0px 0rem;
+    padding-right: 8%;
   }
   .botleft{
-    margin-right: 6rem;
+    margin-right: 5rem;
     font-size: 16px;
+    padding-right: 0%;
   }
   .soldbttn button{
     padding: 0.5rem 3.0rem;
   }
   .disclaimer{
-    padding-right: 10rem;
+    padding-right: 10.5rem;
     font-size: smaller;
   }
   .heroright {
@@ -770,17 +786,19 @@ footer>div>div>a{
   }
   .topleft{
     font-size: 16px;
+    
   }
   .midleft{
     font-size: 30px;
     margin: 0px 1rem 0px 0rem;
+    padding-right: 13%;
   }
   .botleft{
     font-size: 14px;
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
   .disclaimer{
-    padding-right: 6rem;
+    padding-right: 3rem;
     font-size: 13px;
   }
   .heroright img{
@@ -793,12 +811,24 @@ footer>div>div>a{
     padding: 0.3rem 2rem;
   }
   .heroright {
-    left: 7%;
-    top: 10rem;
+    left: 10%;
+    top: 8rem;
   }
   .companywrapper{
     padding-left: 3rem;
     padding-right: 5rem;
+  }
+  .foursm>div>img {
+    width: 85%;
+  }
+  .threelg>div>img {
+    width: 80%;
+  }
+  .foursm>div {
+    margin-right: -1rem;
+  }
+  .threelg>div {
+    margin-right: -2rem;
   }
   .bg-circle {
     top: 0rem;
@@ -815,7 +845,7 @@ footer>div>div>a{
   }
   #faq {
     margin-top: 0rem;
-    padding: 0px 2rem;
+    padding: 0px 4rem 0rem 2rem;
   }
   .accordian-item-body-content 
   {
@@ -887,7 +917,7 @@ footer>div>div>a{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1.8rem;
   }
   .foursm>div{
     margin-right: 0rem;
@@ -914,7 +944,7 @@ footer>div>div>a{
   }
   #faq{
     padding-left: 2rem;
-    margin-right: -3rem;
+    margin-right: -4rem;
     margin-top: 12rem;
   }
   .accordian-item{
@@ -961,10 +991,10 @@ footer>div>div>a{
     margin: auto;
   }
   .threelg>div>img {
-    width: 110%;
+    width: 90%;
   }
   .foursm>div>img {
-    width: 108%;
+    width: 100%;
   }
   .featbody{
   padding-right: 0rem;
