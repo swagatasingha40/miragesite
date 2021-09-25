@@ -922,9 +922,23 @@ footer>div>div>a{
   .foursm>div{
     margin-right: 0rem;
   }
+  #lgcom1{
+    grid-area: compleft;
+  }
+  #lgcom2{
+    grid-area: compright;
+  }
+  #lgcom3{
+    grid-area: compdown;
+  }
+  .smol>img{
+    width:76% !important;
+  }
+
   .threelg{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "compleft compright"
+                          "compdown compdown";
   }
   .companywrapper img {
     width: 100%;
