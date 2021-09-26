@@ -552,6 +552,21 @@ footer>div>div>a{
   color: #FFFFFF;
   text-decoration: none;
 }
+
+@media (min-width:2100px){.bodywrapper{
+  max-width: 79%;
+}}
+@media (min-width: 2300px){.bodywrapper{
+  max-width: 72%;
+}}
+@media (min-width:2450px){
+  .bodywrapper{
+    max-width: 65%;
+  }
+  #faq{padding-right: 11rem;}
+}
+
+
 @media (max-width: 1800px) {
   .foursm>div {
     margin-right: 2.8rem;
