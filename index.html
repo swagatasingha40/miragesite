@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Mirage</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="bodywrapper">
-
       <div class="mobnav">
-        <div class="logo"><img src="./assets/mirage.svg" alt="" style=" width: 75%;"/></div>
+        <div class="logo">
+          <img src="./assets/mirage.svg" alt="" style="width: 75%" />
+        </div>
         <div class="burger-container">
           <div id="burger">
             <div class="bar topBar"></div>
@@ -20,221 +22,223 @@
         </div>
         <ul class="menu">
           <li class="menu-item"><a href="#">Home</a></li>
-          <li class="menu-item"><a href="#features">Features</a></li>
+          <li class="menu-item"><a href="#feat">Features</a></li>
           <li class="menu-item"><a href="#faq">FAQ</a></li>
           <li class="menu-item">
             <a href="#">Dashboard</a>
           </li>
         </ul>
       </div>
-        <div class="navbar">
-            <div class="logo">
-                <img src="assets/mirage.svg" alt="" srcset="">
-            </div>
-            <div class="menulg">
-                <a class="home" href="#">Home</a>
-                <a href="#feat">Features</a>
-                <a href="#faq">FAQ</a>
-                <a class="dashboard" href="#">Dashboard</a>
-            </div>
+      <div class="navbar" data-aos="fade-down">
+        <div class="logo">
+          <img src="assets/mirage.svg" alt="" srcset="" />
         </div>
-        
-        <div class="herowrapper">
-            <div class="heroleft">
-                <div class="topleft">
-                    THE REAL ELITE
-                </div>
-                <div class="midleft">
-                    Making stock
-                    an illusion...
-                </div>
-                <div class="botleft">
-                    Simplify your online shopping experience 
-                    with Mirage Software
-                </div>
-                <div class="soldbttn">
-                    <button>Sold Out</button>
-                </div>
-                <div class="disclaimer">
-                    *Initial purchase cost of 300£ then a 
-                    recurring cost for 50£ each month.
-                </div>
-            </div>
-            <div class="heroright">
-                <img src="assets/circle.svg" alt="" srcset="">
-            </div>
+        <div class="menulg">
+          <a class="home" href="#">Home</a>
+          <a href="#feat">Features</a>
+          <a href="#faq">FAQ</a>
+          <a class="dashboard" href="#">Dashboard</a>
         </div>
+      </div>
 
-
-
-
-
-        <div class="companywrapper">
-          <div class="foursm">
-            <div><img src="assets/comp1.svg" alt="" srcset=""></div>
-            <div><img src="assets/comp2.svg" alt="" srcset=""></div>
-            <div><img src="assets/comp3.svg" alt="" srcset=""></div>
-            <div><img src="assets/comp4.svg" alt="" srcset=""></div>
+      <div
+        class="herowrapper"
+        data-aos="fade-up-right"
+        data-aos-offset="500"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="heroleft">
+          <div class="topleft">THE REAL ELITE</div>
+          <div class="midleft">Making stock an illusion...</div>
+          <div class="botleft">
+            Simplify your online shopping experience with Mirage Software
           </div>
-          <div class="threelg">
-            <div class="smol" id="lgcom1"><img src="assets/comp5.svg" alt="" srcset=""></div>
-            <div class="smol" id="lgcom2"><img src="assets/comp6.svg" alt="" srcset=""></div>
-            <div id="lgcom3"><img src="assets/comp7.svg" alt="" srcset=""></div>
+          <div class="soldbttn">
+            <button>Sold Out</button>
+          </div>
+          <div class="disclaimer">
+            *Initial purchase cost of 300£ then a recurring cost for 50£ each
+            month.
           </div>
         </div>
-
-
-
-
-
-
-        <div class="bg-circle">
-            <img src="assets/circle2.svg" alt="">
+        <div class="heroright">
+          <img src="assets/circle.svg" alt="" srcset="" />
         </div>
-        <div class="features" id="feat">
-            <div class="feature">
-                <div class="highlight-title">
-                    BUILT FOR SPEED
-                </div>
-                <div class="title">
-                    Powerful Task Engine
-                </div>
-                <div class="featbody">
-                    Run unlimited tasks at lightning fast speeds with our Golang task engine.
-                </div>
-            </div>
-            <div class="feature">
-                <div class="highlight-title" style="color: #9A77EC;">
-                    CONVENIECE
-                </div>
-                <div class="title">
-                    Quicktask Support
-                </div>
-                <div class="featbody">
-                    Start tasks easily with our simplified quicktask support, <a href="#">documentation here</a>.
-                </div>
-            </div>
-            <div class="feature">
-                <div class="highlight-title gradtitle" >
-                    SITE SUPPORT
-                </div>
-                <div class="title">
-                    All in one
-                </div>
-                <div class="featbody">
-                    Many sites and regions supported. Ranging from Mesh to Off White.
-                </div>
-            </div>
+      </div>
+
+      <div class="companywrapper" data-aos="fade-up" data-aos-offset="500">
+        <div class="foursm">
+          <div><img src="assets/comp1.svg" alt="" srcset="" /></div>
+          <div><img src="assets/comp2.svg" alt="" srcset="" /></div>
+          <div><img src="assets/comp3.svg" alt="" srcset="" /></div>
+          <div><img src="assets/comp4.svg" alt="" srcset="" /></div>
         </div>
+        <div class="threelg" data-aos="fade-up" data-aos-offset="200">
+          <div class="smol" id="lgcom1">
+            <img src="assets/comp5.svg" alt="" srcset="" />
+          </div>
+          <div class="smol" id="lgcom2">
+            <img src="assets/comp6.svg" alt="" srcset="" />
+          </div>
+          <div id="lgcom3"><img src="assets/comp7.svg" alt="" srcset="" /></div>
+        </div>
+      </div>
 
+      <div class="bg-circle" data-aos="fade-right" data-aos-offset="500">
+        <img src="assets/circle2.svg" alt="" />
+      </div>
+      <div class="features" id="feat" data-aos="fade-up" data-aos-offset="100">
+        <div class="feature">
+          <div class="highlight-title">BUILT FOR SPEED</div>
+          <div class="title">Powerful Task Engine</div>
+          <div class="featbody">
+            Run unlimited tasks at lightning fast speeds with our Golang task
+            engine.
+          </div>
+        </div>
+        <div class="feature">
+          <div class="highlight-title" style="color: #9a77ec">CONVENIECE</div>
+          <div class="title">Quicktask Support</div>
+          <div class="featbody">
+            Start tasks easily with our simplified quicktask support,
+            <a href="#">documentation here</a>.
+          </div>
+        </div>
+        <div class="feature">
+          <div class="highlight-title gradtitle">SITE SUPPORT</div>
+          <div class="title">All in one</div>
+          <div class="featbody">
+            Many sites and regions supported. Ranging from Mesh to Off White.
+          </div>
+        </div>
+      </div>
 
-        <div class="FAQwrapper" id="faq">
-            <div class="FAQ">
-              <div class="clearfix1">
-                <h2 class="acc_feature_subheading" id="fleft">
-                  Frequently Asked Questions
-                </h2>
+      <div class="FAQwrapper" id="faq" data-aos="fade-up" data-aos-offset="200">
+        <div class="FAQ">
+          <div class="clearfix1">
+            <h2 class="acc_feature_subheading" id="fleft">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div class="accordian">
+            <div class="accordian-item">
+              <div class="accordian-item-header">
+                <h4>How much is Mirage?</h4>
               </div>
-              <div class="accordian">
-                <div class="accordian-item">
-                  <div class="accordian-item-header">
-                    <h4>How much is Mirage?</h4>
-                  </div>
-                  <div class="accordian-item-body">
-                    <div class="accordian-item-body-content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia saepe veritatis dolorem qui voluptatem ipsam eum
-                      </p>
-                    </div>
-                  </div>
+              <div class="accordian-item-body">
+                <div class="accordian-item-body-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Officia saepe veritatis dolorem qui voluptatem ipsam eum
+                  </p>
                 </div>
-                <div class="accordian-item">
-                  <div class="accordian-item-header">
-                    <h4>Which Operating System does Mirage support?</h4>
-                  </div>
-                  <div class="accordian-item-body">
-                    <div class="accordian-item-body-content">
-                      <p>
-                        Mirage currently retails for £250 initial with a monthly recurring
-                        payment of £40.
-                      </p>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="accordian-item">
+              <div class="accordian-item-header">
+                <h4>Which Operating System does Mirage support?</h4>
+              </div>
+              <div class="accordian-item-body">
+                <div class="accordian-item-body-content">
+                  <p>
+                    Mirage currently retails for £250 initial with a monthly
+                    recurring payment of £40.
+                  </p>
                 </div>
-                <div class="accordian-item">
-                  <div class="accordian-item-header">
-                    <h4>Is the license resellable?</h4>
-                  </div>
-                  <div class="accordian-item-body">
-                    <div class="accordian-item-body-content">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, fugit?
-                      </p>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="accordian-item">
+              <div class="accordian-item-header">
+                <h4>Is the license resellable?</h4>
+              </div>
+              <div class="accordian-item-body">
+                <div class="accordian-item-body-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aut, fugit?
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="circle-bg-third">
-            <img src="assets/circle.svg" alt="">
-          </div>
-          
+      <div class="circle-bg-third">
+        <img src="assets/circle.svg" alt="" />
+      </div>
     </div>
     <div class="footer">
       <footer>
         <div class="footertextwrapper">
-          <div><a href="#">Mirage</a> </div>
+          <div><a href="#">Mirage</a></div>
           <div><a href="#">Dashboard</a></div>
-          <div><a href="#">Terms & Conditions</a> </div>
-          <div><a href="#">Privacy Policy</a> </div>
+          <div><a href="#">Terms & Conditions</a></div>
+          <div><a href="#">Privacy Policy</a></div>
           <div><a href="#">Twitter</a></div>
           <div><a href="#">Contact Us</a></div>
         </div>
       </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <script>
-        const accordianItemHeaders = document.querySelectorAll(
-          ".accordian-item-header"
-        );
-  
-        accordianItemHeaders.forEach((accordianItemHeader) => {
-          accordianItemHeader.addEventListener("click", () => {
-            const current = document.querySelector(
-              ".accordian-item-header.active"
-            );
-  
-            if (current && current !== accordianItemHeader) {
-              current.classList.toggle("active");
-              current.nextElementSibling.style.maxHeight = 0;
-            }
-            accordianItemHeader.classList.toggle("active");
-  
-            const accordianItemBody = accordianItemHeader.nextElementSibling;
-  
-            if (accordianItemHeader.classList.contains("active")) {
-              accordianItemBody.style.maxHeight =
-                accordianItemBody.scrollHeight + "px";
-            } else {
-              accordianItemBody.style.maxHeight = 0;
-            }
-          });
+      const accordianItemHeaders = document.querySelectorAll(
+        ".accordian-item-header"
+      );
+
+      accordianItemHeaders.forEach((accordianItemHeader) => {
+        accordianItemHeader.addEventListener("click", () => {
+          const current = document.querySelector(
+            ".accordian-item-header.active"
+          );
+
+          if (current && current !== accordianItemHeader) {
+            current.classList.toggle("active");
+            current.nextElementSibling.style.maxHeight = 0;
+          }
+          accordianItemHeader.classList.toggle("active");
+
+          const accordianItemBody = accordianItemHeader.nextElementSibling;
+
+          if (accordianItemHeader.classList.contains("active")) {
+            accordianItemBody.style.maxHeight =
+              accordianItemBody.scrollHeight + "px";
+          } else {
+            accordianItemBody.style.maxHeight = 0;
+          }
         });
-      </script>
-      <script>
-        (function () {
-          var burger = document.querySelector(".burger-container"),
-            header = document.querySelector(".mobnav");
-          burger.onclick = function () {
-            header.classList.toggle("menu-opened");
-            document.querySelector(".menu").classList.toggle("visible");
-          };
-          $(".menu-item").click(function () {
-            header.classList.toggle("menu-opened");
-            document.querySelector(".menu").classList.toggle("visible");
-          });
-        })();
-      </script>
-</body>
+      });
+    </script>
+    <script>
+      (function () {
+        var burger = document.querySelector(".burger-container"),
+          header = document.querySelector(".mobnav");
+        burger.onclick = function () {
+          header.classList.toggle("menu-opened");
+          document.querySelector(".menu").classList.toggle("visible");
+        };
+        $(".menu-item").click(function () {
+          header.classList.toggle("menu-opened");
+          document.querySelector(".menu").classList.toggle("visible");
+        });
+      })();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      let card = document.querySelector(".foursm.div");
+      document.addEventListener("mousemove", function (e) {
+        let xAxis = (window.innerWidth / 2 - e.pageX) / 50;
+        let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+        card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+      });
+    </script>
+  </body>
 </html>
